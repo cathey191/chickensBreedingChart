@@ -17,7 +17,7 @@ $(document).on('keyup', '.search', function(event){
     var text = document.querySelector('.search').value;
 
     if (jsonRead == false){
-        $.getJSON('file:///C:/Users/Flossy/Downloads/chickens.json', function(data){
+        $.getJSON('file:///C:/Users/Flossy/OneDrive/Pictures/WDWU02/chickens/cats/js/chickenBreeds.json', function(data){
 
             console.log(data);
             recursivelyCheckAll(data, text);
