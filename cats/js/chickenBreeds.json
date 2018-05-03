@@ -1,5 +1,5 @@
 {
-	"comment":"Tier Two"{
+	"Tier Two":{
 		"String":
 		  {"parentOne":"Black",
 		  "parentTwo":"Log"},
@@ -20,16 +20,16 @@
 			"parentTwo":"White"},
 		"Coal":
 			{"parentOne":"Flint",
-			"parentTwo":"Log"},
+			"parentTwo":"Log"}
 	},
 
-	"comment":"Tier Three"{
+	"Tier Three":{
 		"Gold":
-		  {"parentOne":"Iron",
-		  "parentTwo":"Yellow"},
+			{"parentOne":"Iron",
+			"parentTwo":"Yellow"},
 		"Snowball":
-		  {"parentOne":"Blue",
-		  "parentTwo":"Log"},
+			{"parentOne":"Blue",
+			"parentTwo":"Log"},
 		"Water":
 			{"parentOne":"Gunpowder",
 			"parentTwo":"Snowball"},
@@ -47,19 +47,19 @@
 			"parentTwo":"Glowstone"}
 	},
 
-	"comment":"Tier Four"{
+	"Tier Four": {
 		"Diamond":
-		  {"parentOne":"Gold",
-		  "parentTwo":"Glass"},
+			{"parentOne":"Gold",
+			"parentTwo":"Glass"},
 		"Blaze":
-		  {"parentOne":"Gold",
-		  "parentTwo":"Lava"},
+			{"parentOne":"Gold",
+			"parentTwo":"Lava"},
 		"Slime":
-		  {"parentOne":"Clay",
-		  "parentTwo":"Green"}
+			{"parentOne":"Clay",
+			"parentTwo":"Green"}
 	},
 
-	"comment":"Tier Five"{
+	"Tier Five":{
 		"Magma":
 			{"parentOne":"Blaze",
 			"parentTwo":"Slime"},
@@ -74,7 +74,7 @@
 			"parentTwo":"Netherwart"}
 	},
 
-	"comment":"Core"{
+	"Core":{
 		"XP":
 			{"parentOne":"Emerald",
 			"parentTwo":"Green"},
@@ -89,7 +89,7 @@
 			"parentTwo":"Lava"}
 	},
 
-	"comment":"Base Metals"{
+	"Base Metals":{
 		"Brsss":
 			{"parentOne":"Copper",
 			"parentTwo":"Zinc"},
@@ -131,7 +131,7 @@
 			"parentTwo":"Nickel"}
 	},
 
-	"comment":"Botania"{
+	"Botania":{
 		"ManaSteel":
 			{"parentOne":"Iron",
 			"parentTwo":"Ghast"},
@@ -140,12 +140,12 @@
 			"parentTwo":"Prismarine Crystal"},
 		"Elementium":
 			{"parentOne":"ManaSteel",
-			"parentTwo":"TerraSteel"},
+			"parentTwo":"TerraSteel"}
 	},
 
-	"comment":"Extrame Reactors"{
+	"Extrame Reactors":{
 		"Yellorium":
-		 	{"parentOne":"Glowstone",
+			{"parentOne":"Glowstone",
 			"parentTwo":"Ender"},
 		"Graphite":
 			{"parentOne":"Coal",
@@ -158,7 +158,7 @@
 			"parentTwo":"Water"}
 	},
 
-	"comment":"Thermal"{
+	"Thermal":{
 		"Basalz":
 			{"parentOne":"Saltpeter",
 			"parentTwo":"Blaze"},
@@ -194,13 +194,13 @@
 			"parentTwo":"Gold"}
 	},
 
-	"comment":"Mekanism"{
+	"Mekanism":{
 		"Osmium":
 			{"parentOne":"Iron",
 			"parentTwo":"Quartz"}
 	},
 
-	"comment":"Actually Additions"{
+	"Actually Additions":{
 		"Blackquartz":
 			{"parentOne":"Quartz",
 			"parentTwo":"Black"},
