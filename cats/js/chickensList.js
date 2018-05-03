@@ -1,6 +1,6 @@
 $(document).ready(function(){
-var chickens = null;
-var jsonRead = false;
+// var chickens = null;
+// var jsonRead = false;
 
 function recursivelyCheckAll(data, current){
     var htmlString = '<div class="current"><p>'+current+'</p></div>'
@@ -16,21 +16,21 @@ function recursivelyCheckAll(data, current){
 $(document).on('keyup', '.search', function(event){
     var text = document.querySelector('.search').value;
 
-    if (jsonRead == false){
+    // if (jsonRead == false){
 			console.log("getting json");
-        $.getJSON('../cats/js/chickenBreeds.json', function(data){
+        $.getJSON('chickenBreeds.json', function(data){
 
             console.log(data);
 						console.log("Running....");
             recursivelyCheckAll(data, text);
-            jsonRead = true;
-            chickens = data;
+            // jsonRead = true;
+            // chickens = data;
         });
 
-    } else {
-				console.log("normal running...");
-        var html = recursivelyCheckAll(chickens, text);
-        document.querySelector(".output").innerHTML = html;
-    }
+    // } else {
+				// console.log("normal running...");
+        // var html = recursivelyCheckAll(chickens, text);
+        // document.querySelector(".output").innerHTML = html;
+    // }
 })
 });

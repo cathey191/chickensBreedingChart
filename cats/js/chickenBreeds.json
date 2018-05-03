@@ -20,7 +20,6 @@
 	"Coal":
 		{"parentOne":"Flint",
 		"parentTwo":"Log"},
-
 	"Gold":
 		{"parentOne":"Iron",
 		"parentTwo":"Yellow"},
@@ -42,7 +41,6 @@
 	"Netherwart":
 		{"parentOne":"Brown",
 		"parentTwo":"Glowstone"},
-
 	"Diamond":
 		{"parentOne":"Gold",
 		"parentTwo":"Glass"},
@@ -52,7 +50,6 @@
 	"Slime":
 		{"parentOne":"Clay",
 		"parentTwo":"Green"},
-
 	"Magma":
 		{"parentOne":"Blaze",
 		"parentTwo":"Slime"},
@@ -65,7 +62,6 @@
 	"Ender":
 		{"parentOne":"Diamond",
 		"parentTwo":"Netherwart"},
-
 	"XP":
 		{"parentOne":"Emerald",
 		"parentTwo":"Green"},
@@ -78,7 +74,6 @@
 	"Obsidian":
 		{"parentOne":"Water",
 		"parentTwo":"Lava"},
-
 	"Brsss":
 		{"parentOne":"Copper",
 		"parentTwo":"Zinc"},
@@ -118,7 +113,6 @@
 	"Platinum":
 		{"parentOne":"SilverOre",
 		"parentTwo":"Nickel"},
-
 	"ManaSteel":
 		{"parentOne":"Iron",
 		"parentTwo":"Ghast"},
@@ -128,7 +122,6 @@
 	"Elementium":
 		{"parentOne":"ManaSteel",
 		"parentTwo":"TerraSteel"},
-
 	"Yellorium":
 		{"parentOne":"Glowstone",
 		"parentTwo":"Ender"},
@@ -141,7 +134,6 @@
 	"Blutonium":
 		{"parentOne":"Cyanite",
 		"parentTwo":"Water"},
-
 	"Basalz":
 		{"parentOne":"Saltpeter",
 		"parentTwo":"Blaze"},
@@ -175,11 +167,9 @@
 	"Mithril":
 		{"parentOne":"Iridium",
 		"parentTwo":"Gold"},
-
 	"Osmium":
 		{"parentOne":"Iron",
 		"parentTwo":"Quartz"},
-
 	"Blackquartz":
 		{"parentOne":"Quartz",
 		"parentTwo":"Black"},
