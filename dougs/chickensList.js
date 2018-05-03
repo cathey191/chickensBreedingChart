@@ -28,7 +28,7 @@ $(document).on('keyup', '.search', function(event){
 
     if (jsonRead == false){
 			console.log("getting json");
-        $.getJSON('file:///C:/Users/Flossy/OneDrive/Pictures/WDWU02/chickens/cats/js/chickenBreeds.json', function(data){
+        $.getJSON('file:///C:/Users/845870941/Desktop/chickensBreedingChart/cats/js/chickenBreeds.json', function(data){
 
             console.log(data);
 						console.log("Running....");
