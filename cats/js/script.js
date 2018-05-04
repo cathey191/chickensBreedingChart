@@ -1,13 +1,51 @@
 $(document).ready(function() {
-	$.getJSON( "chickenBreeds.json", function(data) {
-  	var items = [];
-  	$.each( data, function( key, val ) {
-    	items.push( "<li id='" + key + "'>" + val + "</li>" );
-  	});
+	var chickens = {
+		'String':
+			{parentOne:"Black",
+			parentTwo:"Log"},
+		'Glowstone':
+			{parentOne:"Quartz",
+			parentTwo:"Yellow"},
+		'Gunpowder':
+			{parentOne:"Sand",
+			parentTwo:"Flint"},
+		'Redstone':
+			{parentOne:"Red",
+			parentTwo:"Sand"},
+		'Glass':
+			{parentOne:"Quartz",
+			parentTwo:"Redstone"},
+		'Iron':
+			{parentOne:"Flint",
+			parentTwo:"White"},
+		'Coal':
+			{parentOne:"Flint",
+			parentTwo:"Log"},
+		'Gold':
+			{parentOne:"Iron",
+			parentTwo:"Yellow"},
+		'Snowball':
+			{parentOne:"Blue",
+			parentTwo:"Log"},
+		'Water':
+			{parentOne:"Gunpowder",
+			parentTwo:"Snowball"}
+	}
 
-  	$( "<ul/>", {
-    	"class": "my-new-list",
-    	html: items.join( "" )
-  	}).appendTo( "body" );
-	});
+	function recursivelyCheckAll (chickens, current) {
+		var htmlString = '<div class="current"><p>'+current+'</p></div>'
+
+		for (parent in chickens[current]){
+			if (chickens[current][parent] != null){
+				htmlString += recursivelyCheckAll(chickens, chickens[current][parent]);
+			};
+		}
+		return htmlString
+	};
+
+	$(document).on('keyup', '.search', function(event){
+		console.log(current);
+		var text = document.querySelector('.search').value;
+		recursivelyCheckAll(chickens, text);
+	})
 });
