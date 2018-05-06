@@ -43,8 +43,7 @@ $(document).ready(function() {
 		return htmlString
 	};
 
-	$(document).on('keyup', '.search', function(event){
-		console.log(current);
+	$(document).click('keyup', '.search', function(event){
 		var text = document.querySelector('.search').value;
 		recursivelyCheckAll(chickens, text);
 	})
