@@ -9,3 +9,7 @@ body{
 .current{
 	font-family: sans-serif;
 }
+
+.button{
+	border: 2px solid black
+}
