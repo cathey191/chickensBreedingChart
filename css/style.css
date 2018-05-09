@@ -6,10 +6,25 @@ body{
 	background-color: lightblue;
 }
 
+.output{
+	width: 50vw;
+	text-align: center;
+}
+
 .current{
 	font-family: sans-serif;
 }
 
 .button{
 	border: 2px solid black
+}
+
+.parent{
+	width: 50%;
+	float: left;
+}
+
+.grandparent{
+	width: 25%;
+	float: left;
 }
